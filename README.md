@@ -7,7 +7,6 @@ LaTeX template meeting Johns Hopkins University PhD dissertation formatting requ
 1. Replace placeholders in:
    - `frontmatter/cover.tex`: Title, author, date
    - `frontmatter/abstract.tex`: Your abstract (≤350 words)
-   - `preamble.sty`: Title, author, date
    - `chapter*/chapter*.tex`: Your content
 
 2. Compile:
@@ -29,15 +28,13 @@ LaTeX template meeting Johns Hopkins University PhD dissertation formatting requ
 │   ├── acknowledgments.tex
 │   ├── committee.tex
 │   ├── toc.tex
-│   ├── list_of_figures.tex
-│   └── list_of_tables.tex
 ├── introduction/, chapter1/, chapter2/, chapter3/, conclusion/
 ├── appendix/
 │   ├── appendix1/
 │   └── appendix2/
 └── backmatter/
     ├── dissertation.bib
-    └── cv.tex
+    └── cv.pdf
 ```
 
 ## Features
@@ -47,6 +44,6 @@ LaTeX template meeting Johns Hopkins University PhD dissertation formatting requ
 - Mathematical notation
 - Figure/table formatting with examples throughout
 - Bibliography management
-- Complete dissertation structure with Introduction and Conclusions
+- Complete dissertation structure with Introduction, Chapters, and Conclusion.
 
 Based on: https://www.library.jhu.edu/library-services/electronic-theses-dissertations/formatting-requirements/
