@@ -1,0 +1,49 @@
+\documentclass[12pt]{report}
+\usepackage{preamble}
+
+\begin{document}
+
+% Front matter
+\pagenumbering{roman}
+\input{frontmatter/cover}
+\clearpage
+\input{frontmatter/abstract}
+\clearpage
+\input{frontmatter/acknowledgments}
+\clearpage
+\input{frontmatter/committee}
+\clearpage 
+\input{frontmatter/toc}
+\clearpage
+\listoffigures
+\clearpage
+\listoftables 
+\clearpage
+
+% Main content
+\pagenumbering{arabic}
+\doublespacing
+
+\input{introduction/introduction}
+\clearpage
+\input{chapter1/chapter1}
+\clearpage
+\input{chapter2/chapter2}
+\clearpage
+\input{chapter3/chapter3}
+\clearpage
+\input{conclusion/conclusion}
+\clearpage
+
+% Appendices
+\appendix
+\input{appendix/appendix1/appendix1}
+\clearpage
+\input{appendix/appendix2/appendix2}
+\clearpage
+
+% References
+\renewcommand{\bibsection}{\section*{References}}
+\bibliography{backmatter/dissertation}
+
+\end{document}
